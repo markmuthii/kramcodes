@@ -47,11 +47,11 @@ safe: false
 lsi: false
 username: markmuthii
 repo: markmuthii.github.io
-branch: main
+branch: gh-pages
 relative_source: ./
 destination: ./_serve
-production_url: https://mark.muthii.me
-source_url: https://github.com/markmuthii/markmuthii.github.io
+production_url: https://kram.codes
+source_url: https://github.com/markmuthii/kramcodes
 
 exclude:
   - README.md
