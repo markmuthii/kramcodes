@@ -1,13 +1,13 @@
 ---
 layout: post
-cover: 'assets/images/cover2.jpg'
+cover: "assets/images/cover2.jpg"
 navigation: True
 title: Looking-Glass house
 date: 1871-03-18 10:18:00
 tags: fiction
-subclass: 'post tag-fiction'
-logo: 'assets/images/ghost.png'
-author: lewis
+subclass: "post tag-fiction"
+logo: "assets/images/ghost.png"
+author: kram
 categories: lewis
 ---
 
