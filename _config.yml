@@ -14,8 +14,8 @@ short_url: "mark.muthii.me"
 google_analytics: UA-69281367-1
 disqus: username
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
-# baseurl: https://mark.muthii.me/
-baseurl: /
+baseurl: https://kram.codes/
+# baseurl: /
 
 # Permalinks
 permalink: /:title
