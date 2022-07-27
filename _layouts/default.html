@@ -1,3 +1,7 @@
+---
+logo: "assets/images/logo.png"
+---
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -7,7 +11,8 @@
 
     <!-- Page Meta -->
     <title>
-      {% if page.title %}{{ page.title }}{% else %}{{ site.name }}{% endif %}
+      {% if page.title %}{{ page.title }} - {{ site.name }}{% else %}{{
+      site.name }}{% endif %}
     </title>
     <meta
       name="description"

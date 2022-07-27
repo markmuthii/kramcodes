@@ -2,7 +2,7 @@
 layout: default
 disqus: false
 class: "post-template"
-logo: "assets/images/ghost.png"
+logo: "assets/images/logo.png"
 ---
 
 <!-- default -->
@@ -18,11 +18,10 @@ logo: "assets/images/ghost.png"
   style="background-image: url({{ site.baseurl }}{{ page.cover }}) {% else %}no-cover{% endif %}"
 >
   <nav class="main-nav {% if page.cover %} overlay {% endif %} clearfix">
-    {% if page.logo %}<a class="blog-logo" href="{{ site.baseurl }}"
-      ><img src="{{ site.baseurl }}{{ page.logo }}" alt="Blog Logo" /></a
-    >{% endif %} {% if page.navigation %}
+    {% if layout.logo %}<a class="blog-logo" href="{{ site.baseurl }}"
+      ><img src="{{ site.baseurl }}{{ layout.logo }}" alt="Blog Logo" /></a
+    >{% endif %}
     <a class="menu-button icon-menu" href="#"><span class="word">Menu</span></a>
-    {% endif %}
   </nav>
 </header>
 
