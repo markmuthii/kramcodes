@@ -10,7 +10,7 @@ language: "en-uk"
 name: "Kram Codes"
 description: "A public development diary by Mark Muthii."
 
-short_url: "mark.muthii.me"
+short_url: "kram.codes"
 google_analytics: UA-69281367-1
 disqus: username
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
@@ -46,7 +46,7 @@ plugins: [jekyll-paginate]
 safe: false
 lsi: false
 username: markmuthii
-repo: markmuthii.github.io
+repo: kramcodes
 branch: gh-pages
 relative_source: ./
 destination: ./_serve
